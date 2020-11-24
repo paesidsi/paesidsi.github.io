@@ -1,0 +1,133 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: roboto;
+}
+
+/*body {
+	background-color: #454955;
+}*/
+
+.menu {
+	width: 100%;
+	background-color: #363c4c;
+	position: fixed;
+}
+
+ul {
+	padding-left: 15%;
+}
+
+li {
+	color: white;
+	list-style-type: none;
+	float: left;
+	padding: 20px 30px 10px 30px;
+}
+
+li:hover, .ativo {
+	color: black;
+	background-color: white;
+}
+
+.imagem {
+	height: 100vh;
+	text-align: center;
+	background-color: black;
+	overflow: hidden;
+}
+
+img {
+	width: 80%;
+	margin-bottom: -4px;
+}
+
+.padding-lateral {
+	padding-left: 15%;
+	padding-right: 15%;
+}
+
+.h1-pg1 {
+	font-size: 4em;
+	text-align: center;
+	margin-top: 50px;
+}
+
+.hr-titulo {
+	margin-right: 18%;
+	margin-left: 18%;
+}
+
+.paragrafo {
+	font-size: 1.5em;
+	margin-bottom: 30px;
+	text-align: justify;
+}
+
+.h2-pg1 {
+	font-size: 2em;
+	margin-bottom: 30px;
+}
+
+.video {
+	padding-left: 15%;
+	padding-right: 15%;
+	height: 90vh;
+	padding-bottom: 40px;
+}
+
+.iframe-v {
+	width: 100%;
+	min-height: 100%;
+}
+
+.rodape {
+	padding: 80px 0 50px 0;
+	background-color: #363c4c;
+	color: white;
+	text-decoration: bold;
+	text-align: center;
+}
+
+.titulo-2 {
+	margin: 0 15% 0 15%;
+	padding-top: 80px;
+	text-align: center;
+}
+
+.div-tabela {
+	margin: 0 15% 0 15%;
+	background-color: black;
+	color: white;
+}
+
+.tabela {
+	margin-top: 30px;
+	width: 100%;
+	border-collapse: collapse;
+	text-align: center;
+}
+
+.tabela tr:hover {
+	background-color: gray;
+	color: black;
+}
+
+.tabela .linha1:hover {
+	background-color: black;
+	color: white;
+}
+
+.tabela tr:nth-child(even) {
+	background-color: green;
+}
+
+.tabela tr:nth-child(even):hover {
+	background-color: gray;
+}
+
+.tabela td, .tabela th {
+	padding-top: 8px;
+	padding-bottom: 4px;
+}
+
